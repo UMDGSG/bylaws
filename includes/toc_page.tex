@@ -1,0 +1,13 @@
+\contentsmargin{0pt}
+\renewcommand\contentspage{\thecontentspage}
+
+\dottedcontents{section}[3.3em]{}{2.3em}{5pt}
+
+\titlecontents*{chapter}% <section-type>
+  [0pt]% <left>
+  {\addvspace{1em}}% <above-code>
+  {\bfseries\chaptername\ \thecontentslabel: }% <numbered-entry-format>
+  {}% <numberless-entry-format>
+  {\bfseries\dotfill\mdseries\contentspage}% <filler-page-format>
+
+\tableofcontents
