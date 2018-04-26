@@ -2,13 +2,14 @@
 
 \renewcommand{\chaptername}{Article }
 
-\newlist{bylaws-number}{enumerate}{3}
+\newlist{bylaws-number}{enumerate}{4}
 \setlist[bylaws-number]{
 labelindent=*,
 style=multiline,
 leftmargin=*,
 label*=\thesection.\Alph*.}
 \setlist[bylaws-number,2]{label*=\arabic*.}
+\setlist[bylaws-number,3]{label*=\alph*.}
 
 \pagestyle{fancy}
 \lhead{}
